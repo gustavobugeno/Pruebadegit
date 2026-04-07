@@ -1,25 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Mi Sitio Web</title>
- <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Torneo Gamer 2026</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <header>
- <h1>Bienvenido a mi sitio web</h1>
- <p>Este proyecto se utilizará para practicar Git y GitHub.</p>
- </header>
- <main>
- <section>
- <h2>Sobre este proyecto</h2>
- <p>Este es un sitio web básico creado con HTML y CSS.</p>
- </section>
-    <h2>Mis objetivos</h2>
-    <p>Aprender a usar Git, GitHub, ramas, merge y rollback.</p>
-   </section>
- 
- </main>
+    <!-- Encabezado -->
+    <header>
+        <h1>Torneo Gamer 2026</h1>
+        <p>¡Compite en los mejores juegos y gana increíbles premios!</p>
+        <a href="#registro" class="boton">Inscríbete ahora</a>
+    </header>
+
+    <!-- Información del evento -->
+    <section id="info">
+        <h2>Información del evento</h2>
+        <p><strong>Fecha:</strong> 7 de junio de 2026</p>
+        <p><strong>Lugar:</strong> Centro Cultural de Valdivia</p>
+        <p><strong>Juegos:</strong> League of Legends, Valorant, FIFA</p>
+        <p><strong>Premios:</strong> Dinero en efectivo, merchandising gamer y trofeos</p>
+    </section>
+
+    <!-- Registro -->
+    <section id="registro">
+        <h2>Registro</h2>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" name="nombre" required>
+            
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            
+            <label>Juego elegido:</label>
+            <select name="juego">
+                <option>League of Legends</option>
+                <option>Valorant</option>
+                <option>FIFA</option>
+            </select>
+            
+            <button type="submit">Enviar inscripción</button>
+        </form>
+    </section>
+
+    <!-- Agenda -->
+    <section id="agenda">
+        <h2>Agenda</h2>
+        <ul>
+            <li>10:00 - Apertura</li>
+            <li>11:00 - Clasificatorias</li>
+            <li>15:00 - Semifinales</li>
+            <li>18:00 - Final</li>
+            <li>20:00 - Premiación</li>
+        </ul>
+    </section>
+
+    <!-- Contacto -->
+    <footer>
+        <p>Contacto: torneo2026@correo.com</p>
+        <p>Síguenos en Instagram, TikTok y Twitch</p>
+    </footer>
 </body>
 </html>
